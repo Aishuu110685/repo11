@@ -1,0 +1,10 @@
+--- 
+  - hosts: all
+    become: yes
+    tasts: 
+      - name: i want install tree
+        apt:
+           name: tree
+           state: present
+            
+
